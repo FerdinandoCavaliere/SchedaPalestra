@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Nero"
+                android:text="@string/testoLabelSerieBreve"
+                android:id="@+id/textViewSerieTestoFisso" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:textColor="@color/Nero"
+                android:id="@+id/textViewSerie"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_4"
+                android:layout_width="20dp"
+                android:paddingStart="@dimen/dialog_horizontal_margin_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testoLabelRipetizioniAbbreviato"
+                android:textColor="@color/Nero"
+                android:id="@+id/editTextRipetizioniTestoFisso"/>
+
+            <EditText
+                android:id="@+id/editTextRipetizioni"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testoLabelPesoAbbreviato"
+                android:textColor="@color/Nero"
+                android:id="@+id/textViewPesoTestoFisso"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"/>
+
+            <EditText
+                android:id="@+id/editTextPeso"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testoLabelPesoKg"
+                android:textColor="@color/Nero"
+                android:id="@+id/textViewUnitaDiMisura"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testoLabelRecuperoBreve"
+                android:textColor="@color/Nero"
+                android:id="@+id/textViewRecuperoTestoFisso"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+                android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+
+            <EditText
+                android:id="@+id/editTextRecuperoPiramidale"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testoLabelRecuperoMin"
+                android:textColor="@color/Nero"
+                android:id="@+id/testoLabelRecuperoMinPiramidale"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewRPercentuale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_32"
+                android:text="@string/testoLabelPesoPercentualeBreve"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <EditText
+                android:id="@+id/editTextPercentualePiramidale"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <TextView
+                android:id="@+id/textViewPercentualeAbbreviato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/testoLabelPesoPercentualeAbbreviato"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <TextView
+                android:id="@+id/textViewRPE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_20"
+                android:paddingRight="@dimen/dialog_horizontal_margin_5"
+                android:text="@string/testoLabelPesoRPE"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <EditText
+                android:id="@+id/editTextRPEPiramidale"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnElimina"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dialog_horizontal_margin_10"
+        android:layout_marginStart="@dimen/dialog_horizontal_margin_10"
+        android:background="@drawable/background_cirche_red"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@color/Bianco"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dialog_vertical_margin"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingTop="@dimen/dialog_vertical_margin"
+    android:background="@color/coloreSfondoDialogCronometro" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/testoRecupero"
+        android:id="@+id/textViewRecupero"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/dialog_vertical_margin"
+        android:textColor="@color/colorAccent" />
+
+    <Chronometer
+        android:id="@+id/chronometerRecupero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/dialog_cronometro_numeri" />
+
+</LinearLayout>

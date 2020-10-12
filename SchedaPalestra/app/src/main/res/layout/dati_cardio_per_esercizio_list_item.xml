@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutProgramma">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testoLabelPogrammaAbbreviato"
+            android:id="@+id/textViewProgrammaLabel"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreAttributiListView"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programma"
+            android:id="@+id/textViewProgramma"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreAttributiListView"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutIntensita">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testoLabelIntensitaAbbreviato"
+            android:id="@+id/textViewIntensitaLabel"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreAttributiListView"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+
+        <TextView
+            android:id="@+id/textViewIntensita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5"
+            android:text="@string/intensita"
+            android:textColor="@color/coloreAttributiListView"
+            android:textSize="@dimen/caratteri_listView_Attributi" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutPendenza">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testoLabelPendenzaAbbreviato"
+            android:id="@+id/textViewPendenzaLabel"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreAttributiListView"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+
+        <TextView
+            android:id="@+id/textViewPendenza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5"
+            android:text="@string/intensita"
+            android:textColor="@color/coloreAttributiListView"
+            android:textSize="@dimen/caratteri_listView_Attributi" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutVelocitaTempo">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/velocita"
+            android:id="@+id/textViewVelocita"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreAttributiListView"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testoLabelPesoKmH"
+            android:id="@+id/textViewKmH"
+            android:textColor="@color/coloreAttributiListView"
+            android:textSize="@dimen/caratteri_dialog"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_2"
+            android:paddingStart="@dimen/dialog_horizontal_margin_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intensità"
+            android:id="@+id/textViewTempo"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreAttributiListView"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_15"
+            android:paddingStart="@dimen/dialog_horizontal_margin_15" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/testoLabelTempoMin"
+            android:id="@+id/textViewTempoMin"
+            android:textColor="@color/coloreAttributiListView"
+            android:textSize="@dimen/caratteri_dialog"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_2"
+            android:paddingStart="@dimen/dialog_horizontal_margin_2"/>
+    </LinearLayout>
+</LinearLayout>

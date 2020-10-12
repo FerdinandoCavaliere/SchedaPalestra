@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutContenitoreEsercizio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_esercizio_list_item"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkBoxSeleziona"
+        android:layout_width="@dimen/larghezza_checkBox"
+        android:layout_height="match_parent"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewNomeGruppoMuscolare"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+                android:paddingStart="@dimen/dialog_horizontal_margin_5"
+                android:text="Gruppo"
+                android:textColor="@color/coloreGruppoMuscolareListView"
+                android:textSize="@dimen/caratteri_listView_Gruppo"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewGiorno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="Giorno"
+                android:textColor="@color/coloreGiornoListView"
+                android:textSize="@dimen/caratteri_listView_Gruppo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewNomeEsercizio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+                android:paddingStart="@dimen/dialog_horizontal_margin_5"
+                android:text="Esercizio"
+                android:textColor="@color/coloreEsercizioListView"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewRoutine"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="Routine"
+            android:textColor="@color/coloreRoutineListView"
+            android:textSize="@dimen/caratteri_listView_Gruppo"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" >
+            <TextView
+                android:id="@+id/textViewMassimaleLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:paddingRight="@dimen/dialog_horizontal_margin_5"
+                android:paddingEnd="@dimen/dialog_horizontal_margin_5"
+                android:text="@string/testoLabelMassimale"
+                android:textColor="@color/coloreAttributiListView"
+                android:textSize="@dimen/caratteri_dialog"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textViewMassimale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/coloreAttributiListView"
+                android:textSize="@dimen/caratteri_dialog" />
+        </LinearLayout>
+
+        <!-- Serie e Ripetizioni (Esercizi non cardio) -->
+        <LinearLayout
+            android:id="@+id/linearLayoutContenitoreItemDinamiciNoCardio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <!-- Dati esercizi cardio -->
+        <LinearLayout
+            android:id="@+id/linearLayoutContenitoreItemDinamiciCardio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewSuperSet"
+        android:layout_width="@dimen/larghezza_immagine_superset"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:contentDescription="Tipo di super set"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

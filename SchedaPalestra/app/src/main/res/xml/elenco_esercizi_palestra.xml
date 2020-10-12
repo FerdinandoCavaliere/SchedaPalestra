@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EserciziBase>
+        <GruppiMuscolari>
+            <GruppoMuscolare id="100" nome="Addominali">
+                <Esercizi>
+                    <Esercizio
+                        id="101"
+                        nome="Sit Up"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="102"
+                        nome="Parallele"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="103"
+                        nome="Ginocchia al petto"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="104"
+                        nome="Crunch"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="105"
+                        nome="Piegamenti laterali"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="106"
+                        nome="Addominali alla macchina"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="107"
+                        nome="Rotazione con bastone"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="108"
+                        nome="Crunch inverso"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="109"
+                        nome="Crunch ai cavi"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="110"
+                        nome="Crunch laterali"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="111"
+                        nome="Crunch laterali hyperextension"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="112"
+                        nome="Twist"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="113"
+                        nome="Crunch con peso"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="114"
+                        nome="Crunch laterali ai cavi"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="115"
+                        nome="Plank"
+                        idGruppoMuscolare="100" />
+                    <Esercizio
+                        id="116"
+                        nome="Plank laterale"
+                        idGruppoMuscolare="100" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="200" nome="Avambracci">
+                <Esercizi>
+                    <Esercizio
+                        id="201"
+                        nome="Bilanciere EZ presa inversa"
+                        idGruppoMuscolare="200" />
+                    <Esercizio
+                        id="202"
+                        nome="Bilanciere EZ"
+                        idGruppoMuscolare="200" />
+                    <Esercizio
+                        id="203"
+                        nome="Bilanciere dritto presa inversa"
+                        idGruppoMuscolare="200" />
+                    <Esercizio
+                        id="204"
+                        nome="Bilanciere dritto"
+                        idGruppoMuscolare="200" />
+                    <Esercizio
+                        id="205"
+                        nome="Curl con manubrio"
+                        idGruppoMuscolare="200" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="300" nome="Bicipiti">
+                <Esercizi>
+                    <Esercizio
+                        id="301"
+                        nome="Bilanciere in piedi"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="302"
+                        nome="Bilanciere su panca scott"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="303"
+                        nome="Biceps curl"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="304"
+                        nome="Manubri su panca inclinata"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="305"
+                        nome="Seduto con manubri senza rotazione"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="306"
+                        nome="Seduto con manubri"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="307"
+                        nome="In concentrazione"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="308"
+                        nome="Manubri alternati"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="309"
+                        nome="High biceps curl"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="310"
+                        nome="Bilanciere EZ in piedi"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="311"
+                        nome="Bilanciere EZ su panca scott"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="312"
+                        nome="Curl ai cavi alti"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="313"
+                        nome="Manubri alternati senza rotazione"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="314"
+                        nome="Curl ai cavi bassi"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="315"
+                        nome="Curl ai cavi incrociati alti"
+                        idGruppoMuscolare="300" />
+                    <Esercizio
+                        id="316"
+                        nome="Curl ai cavi incrociati bassi"
+                        idGruppoMuscolare="300" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="400" nome="Dorsali">
+                <Esercizi>
+                    <Esercizio
+                        id="401"
+                        nome="Sbarra avanti"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="402"
+                        nome="Sbarra dietro"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="403"
+                        nome="Lat machine avanti"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="404"
+                        nome="Low row"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="405"
+                        nome="Lat machine presa inversa"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="406"
+                        nome="Pulley orizzontale"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="407"
+                        nome="Row teca"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="408"
+                        nome="Rematore con bilanciere"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="409"
+                        nome="Rematore con manubrio"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="410"
+                        nome="Tirate al cavo"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="411"
+                        nome="Iso row"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="412"
+                        nome="Iso pull down"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="413"
+                        nome="Iso high row"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="414"
+                        nome="Good morning"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="415"
+                        nome="Panca lombari"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="416"
+                        nome="Stacchi da terra"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="417"
+                        nome="Gambe flesse con bilanciere"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="418"
+                        nome="Gambe tese con bilanciere"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="419"
+                        nome="Pullover machine"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="420"
+                        nome="Trazioni alla macchina presa larga"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="421"
+                        nome="Trazioni alla macchina presa media"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="422"
+                        nome="Trazioni alla macchina presa inversa"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="423"
+                        nome="Gambe flesse con manubri"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="424"
+                        nome="Gambe tese con manubri"
+                        idGruppoMuscolare="400" />
+                    <Esercizio
+                        id="425"
+                        nome="Hyperextension"
+                        idGruppoMuscolare="400" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="500" nome="Gambe">
+                <Esercizi>
+                    <Esercizio
+                        id="501"
+                        nome="Squat"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="502"
+                        nome="Squat frontale"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="503"
+                        nome="Hack machine"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="504"
+                        nome="Squat machine"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="505"
+                        nome="Squat senza peso"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="506"
+                        nome="Leg press"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="507"
+                        nome="Leg extension"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="508"
+                        nome="Prone leg curl"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="509"
+                        nome="Sitting leg curl"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="510"
+                        nome="Kneeling leg curl"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="511"
+                        nome="Stacchi a gambe tese"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="512"
+                        nome="Femorali"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="513"
+                        nome="Coscia - glutei - fianchi"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="514"
+                        nome="Affondi con manubri"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="515"
+                        nome="Gluteo machine"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="516"
+                        nome="Adductor machine"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="517"
+                        nome="Abductor machine"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="518"
+                        nome="Slanci di fianco"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="519"
+                        nome="Slanci all'indietro"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="520"
+                        nome="Squat sumo"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="521"
+                        nome="Affondi con bilanciere"
+                        idGruppoMuscolare="500" />
+                    <Esercizio
+                        id="522"
+                        nome="Stacchi a gambe flesse"
+                        idGruppoMuscolare="500" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="600" nome="Pettorali">
+                <Esercizi>
+                    <Esercizio
+                        id="601"
+                        nome="Wide chest"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="602"
+                        nome="Panca orizzontale con bilanciere"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="603"
+                        nome="Panca declinata con bilanciere"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="604"
+                        nome="Panca inclinata con bilanciere"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="605"
+                        nome="Peck deck"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="606"
+                        nome="Panca orizzontale con manubri"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="607"
+                        nome="Decline press"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="608"
+                        nome="Panca inclinata con manubri"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="609"
+                        nome="Croci su panca orizzontale"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="610"
+                        nome="Croci su panca declinata"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="611"
+                        nome="Croci su panca inclinata"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="612"
+                        nome="Pectoral machine"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="613"
+                        nome="Parallele"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="614"
+                        nome="Pullover machine"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="615"
+                        nome="Pullover con manubrio"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="616"
+                        nome="Pullover con bilanciere"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="617"
+                        nome="Cavi incrociati"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="618"
+                        nome="Incline press"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="619"
+                        nome="Military press"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="620"
+                        nome="Panca declinata con manubri"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="621"
+                        nome="Croci su panca orizzontale ai cavi"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="622"
+                        nome="Croci su panca declinata ai cavi"
+                        idGruppoMuscolare="600" />
+                    <Esercizio
+                        id="623"
+                        nome="Croci su panca inclinata ai cavi"
+                        idGruppoMuscolare="600" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="700" nome="Polpacci">
+                <Esercizi>
+                    <Esercizio
+                        id="701"
+                        nome="Calf machine in piedi"
+                        idGruppoMuscolare="700" />
+                    <Esercizio
+                        id="702"
+                        nome="Calf machine seduto"
+                        idGruppoMuscolare="700" />
+                    <Esercizio
+                        id="703"
+                        nome="Spinte alla pressa"
+                        idGruppoMuscolare="700" />
+                    <Esercizio
+                        id="704"
+                        nome="Sollevamento a corpo libero"
+                        idGruppoMuscolare="700" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="800" nome="Spalle">
+                <Esercizi>
+                    <Esercizio
+                        id="801"
+                        nome="Iso shoulder press"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="802"
+                        nome="Shoulder press"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="803"
+                        nome="Distensione con manubri"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="804"
+                        nome="Later raise teca"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="805"
+                        nome="Alzate laterali"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="806"
+                        nome="Alzate laterali ad un braccio"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="807"
+                        nome="Alzate laterali a 90°"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="808"
+                        nome="Alzate laterali al cavo"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="809"
+                        nome="Deltoid machine"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="810"
+                        nome="Alzate frontali con manubrio"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="811"
+                        nome="Tirate al mento"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="812"
+                        nome="Rotazione delle spalle"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="813"
+                        nome="Alzate delle spalle"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="814"
+                        nome="Lateral raise"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="815"
+                        nome="Reverse pectoral"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="816"
+                        nome="Alzate frontali con manubrio singolo braccio"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="817"
+                        nome="Alzate frontali alla macchina singolo braccio"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="818"
+                        nome="Alzate frontali ai cavi"
+                        idGruppoMuscolare="800" />
+                    <Esercizio
+                        id="819"
+                        nome="Alzate frontali ai cavi singolo braccio"
+                        idGruppoMuscolare="800" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="900" nome="Tricipiti">
+                <Esercizi>
+                    <Esercizio
+                        id="901"
+                        nome="French press bilanciere EZ"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="902"
+                        nome="Manubrio a due mani"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="903"
+                        nome="Estensioni con manubrio"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="904"
+                        nome="Push down"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="905"
+                        nome="Spalle al cavo alto"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="906"
+                        nome="Con un braccio al cavo"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="907"
+                        nome="Corpo a 90° con manubrio"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="908"
+                        nome="Corpo a 90° con cavo"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="909"
+                        nome="Triceps machine"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="910"
+                        nome="Parallele"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="911"
+                        nome="Distensioni ai cavi"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="912"
+                        nome="Distensioni ai cavi inclinato"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="914"
+                        nome="French press bilanciere dritto"
+                        idGruppoMuscolare="900" />
+                    <Esercizio
+                        id="915"
+                        nome="Panca orizzontale bilanciere presa stretta"
+                        idGruppoMuscolare="900" />
+                </Esercizi>
+            </GruppoMuscolare>
+            <GruppoMuscolare id="1000" nome="Cardio">
+                <Esercizi>
+                    <Esercizio
+                        id="1001"
+                        nome="Treadmill"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1002"
+                        nome="Stair Mill"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1003"
+                        nome="Rowing Machine"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1004"
+                        nome="Airdyne"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1005"
+                        nome="Spin Bike"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1006"
+                        nome="Jacob's Ladder"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1007"
+                        nome="Skierg"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1008"
+                        nome="ARC Trainer"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1009"
+                        nome="Elliptical"
+                        idGruppoMuscolare="1000" />
+                    <Esercizio
+                        id="1010"
+                        nome="Recumbent Bike"
+                        idGruppoMuscolare="1000" />
+                </Esercizi>
+            </GruppoMuscolare>
+        </GruppiMuscolari>
+    </EserciziBase>
+</PreferenceScreen>

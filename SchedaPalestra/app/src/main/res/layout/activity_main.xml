@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <!-- Toolbar - container per lista esercizi - button per far comparire layout per inserimento -->
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/LayoutPrincipale" >
+
+        <android.support.design.widget.CoordinatorLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fitsSystemWindows="true"
+            tools:context="it.ermete.mercurio.schedapalestra.MainActivity"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageButton
+                            android:id="@+id/imgCronometro"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@drawable/ic_timer_white_36dp"
+                            android:contentDescription="@string/CronometroDescrizione"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/testoNotaScheda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="@dimen/dialog_horizontal_margin_10"
+                            android:background="@color/colorPrimary"
+                            android:ellipsize="marquee"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:textColor="@color/Bianco"
+                            android:textSize="@dimen/caratteri_nota_scheda_titolo"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/imgCronometro"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </android.support.constraint.ConstraintLayout>
+
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <include layout="@layout/content_main" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabAggiungiEsercizio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:src="@android:drawable/ic_input_add"
+                android:tint="@color/Bianco" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <!--Scelta tipo di inserimento -->
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/LayoutSceltaTipoDiInserimento"
+        android:background="@color/coloreSfondoLayoutSceltaTipoDiInserimento"
+        tools:layout_editor_absoluteY="56dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FloatingSerieCostanti"
+            android:textColor="@color/Bianco"
+            android:id="@+id/textViewSerieCostanti"
+            android:textSize="@dimen/caratteri_menu_layer"
+            app:layout_constraintRight_toLeftOf="@+id/fabAggiungiPesoCostante"
+            android:layout_marginRight="16dp"
+            app:layout_constraintTop_toTopOf="@+id/fabAggiungiPesoCostante"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/fabAggiungiPesoCostante"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabAggiungiPesoCostante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@color/Bianco"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/fabAggiungiPesoPiramidale"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FloatingSeriePiramidali"
+            android:textColor="@color/Bianco"
+            android:id="@+id/textViewSerieiPiramidali"
+            android:textSize="@dimen/caratteri_menu_layer"
+            app:layout_constraintRight_toLeftOf="@+id/fabAggiungiPesoPiramidale"
+            android:layout_marginRight="16dp"
+            app:layout_constraintTop_toTopOf="@+id/fabAggiungiPesoPiramidale"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/fabAggiungiPesoPiramidale"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabAggiungiPesoPiramidale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@color/Bianco"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/fabAggiungiEsercizioAerobico"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FloatingCardio"
+            android:textColor="@color/Bianco"
+            android:id="@+id/textViewEsercizioAerobico"
+            android:textSize="@dimen/caratteri_menu_layer"
+            app:layout_constraintRight_toLeftOf="@+id/fabAggiungiEsercizioAerobico"
+            android:layout_marginRight="16dp"
+            app:layout_constraintTop_toTopOf="@+id/fabAggiungiEsercizioAerobico"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/fabAggiungiEsercizioAerobico"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabAggiungiEsercizioAerobico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@color/Bianco"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/fabTornaPrincipale"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FloatingChiudi"
+            android:textColor="@color/Bianco"
+            android:id="@+id/textViewChiudi"
+            android:textSize="@dimen/caratteri_menu_layer"
+            app:layout_constraintRight_toLeftOf="@+id/fabTornaPrincipale"
+            android:layout_marginRight="16dp"
+            app:layout_constraintTop_toTopOf="@+id/fabTornaPrincipale"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/fabTornaPrincipale"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabTornaPrincipale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_delete"
+            android:tint="@color/Bianco"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginEnd="8dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <!-- Drawer laterale -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_drawer">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LayoutMenuExport"
+            android:layout_marginTop="@dimen/nav_header_height">
+
+            <TextView
+                android:id="@+id/textViewTitoloEsportazione"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/testoTitolProgressExport"
+                android:gravity="center"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@string/testoTitolProgressExport" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/LayoutMenuNomeExport"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintTop_toBottomOf="@id/textViewTitoloEsportazione">
+
+
+                <EditText
+                    android:id="@+id/editTextNomeExport"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="@string/testoHintNomeExport"
+                    android:inputType="textCapSentences"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginRight="8dp" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/LayoutMenuExportPdfElenco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="0dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutMenuNomeExport"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/imageViewPdfElenco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/testoContentDescriptionEleneco"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_picture_as_pdf_black_36dp" android:layout_marginStart="8dp"/>
+                <TextView
+                    android:id="@+id/TextViewExportPdfElenco"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/testoExportPdfElenco"
+                    app:layout_constraintLeft_toRightOf="@+id/imageViewPdfElenco"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewPdfElenco"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewPdfElenco"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/LayoutMenuExportPdfGruppi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutMenuExportPdfElenco"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/imageViewPdfGruppi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/testoContentDescriptionGruppi"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_picture_as_pdf_black_36dp" android:layout_marginStart="8dp"/>
+                <TextView
+                    android:id="@+id/TextViewExportPdfGruppi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/testoExportPdfGruppi"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imageViewPdfGruppi"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewPdfGruppi"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewPdfGruppi"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/LayoutMenuExportPdfRoutine"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutMenuExportPdfGruppi"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/imageViewPdfRoutine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/testoContentDescriptionRoutine"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_picture_as_pdf_black_36dp" android:layout_marginStart="8dp"/>
+                <TextView
+                    android:id="@+id/TextViewExportPdfRoutine"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/testoExportPdfRoutine"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imageViewPdfRoutine"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewPdfRoutine"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewPdfRoutine"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/LayoutMenuExportPdfGiorni"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutMenuExportPdfRoutine"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/imageViewPdfGiorni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/testoContentDescriptionGiorni"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_picture_as_pdf_black_36dp" android:layout_marginStart="8dp"/>
+                <TextView
+                    android:id="@+id/TextViewExportPdfGiorni"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/testoExportPdfGiorni"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imageViewPdfGiorni"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewPdfGiorni"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewPdfGiorni"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/LayoutElencoExport"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/LayoutMenuExportPdfGiorni"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:id="@+id/imageViewElencoExport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="@string/testoContentDescriptionElencoExport"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_folder_black_36dp" android:layout_marginStart="8dp"/>
+                <TextView
+                    android:id="@+id/TextViewExportElencoExport"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/testoLaberElencoExport"
+                    android:layout_marginRight="8dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@+id/imageViewElencoExport"
+                    android:layout_marginLeft="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/imageViewElencoExport"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageViewElencoExport"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/testoGuidaVersione"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:gravity="center"
+                android:text="@string/testoVersione"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,73 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">1dp</dimen>
+
+    <dimen name="dialog_horizontal_margin">2dp</dimen>
+    <dimen name="dialog_vertical_margin">2dp</dimen>
+
+    <dimen name="dialog_horizontal_margin_1" tools:keep="@dimen/dialog_horizontal_margin_1">1dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_2">2dp</dimen>
+    <dimen name="dialog_horizontal_margin_3" tools:keep="@dimen/dialog_horizontal_margin_3">3dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_4">4dp</dimen>
+    <dimen name="dialog_horizontal_margin_5">5dp</dimen>
+    <dimen name="dialog_horizontal_margin_6" tools:keep="@dimen/dialog_horizontal_margin_6">6dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_7">7dp</dimen>
+    <dimen name="dialog_horizontal_margin_8">8dp</dimen>
+    <dimen name="dialog_horizontal_margin_9" tools:keep="@dimen/dialog_horizontal_margin_9">9dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_10">10dp</dimen>
+    <dimen name="dialog_horizontal_margin_11" tools:keep="@dimen/dialog_horizontal_margin_11">11dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_12" tools:keep="@dimen/dialog_horizontal_margin_12">12dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_13" tools:keep="@dimen/dialog_horizontal_margin_13">13dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_14" tools:keep="@dimen/dialog_horizontal_margin_14">14dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_15">15dp</dimen>
+    <dimen name="dialog_horizontal_margin_16" tools:keep="@dimen/dialog_horizontal_margin_16">16dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_17" tools:keep="@dimen/dialog_horizontal_margin_17">17dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_18" tools:keep="@dimen/dialog_horizontal_margin_18">18dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_19" tools:keep="@dimen/dialog_horizontal_margin_19">19dp
+    </dimen>
+    <dimen name="dialog_horizontal_margin_20">20dp</dimen>
+    <dimen name="dialog_horizontal_margin_21">21dp</dimen>
+    <dimen name="dialog_horizontal_margin_22">22dp</dimen>
+    <dimen name="dialog_horizontal_margin_23">23dp</dimen>
+    <dimen name="dialog_horizontal_margin_24">24dp</dimen>
+    <dimen name="dialog_horizontal_margin_25">25dp</dimen>
+    <dimen name="dialog_horizontal_margin_26">26dp</dimen>
+    <dimen name="dialog_horizontal_margin_27">27dp</dimen>
+    <dimen name="dialog_horizontal_margin_28">28dp</dimen>
+    <dimen name="dialog_horizontal_margin_29">29dp</dimen>
+    <dimen name="dialog_horizontal_margin_30">30dp</dimen>
+    <dimen name="dialog_horizontal_margin_31">33dp</dimen>
+    <dimen name="dialog_horizontal_margin_32">32dp</dimen>
+    <dimen name="dialog_horizontal_margin_62">62dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="caratteri_dialog">13sp</dimen>
+    <dimen name="caratteri_dialog_spinner">12sp</dimen>
+    <dimen name="caratteri_listView_Gruppo">13sp</dimen>
+    <dimen name="caratteri_listView_Esercizio">13sp</dimen>
+    <dimen name="caratteri_listView_Attributi">13sp</dimen>
+
+    <dimen name="caratteri_menu_layer">20sp</dimen>
+
+    <dimen name="caratteri_nota_scheda_titolo">22sp</dimen>
+
+    <dimen name="nav_header_height">70dp</dimen>
+    <dimen name="dialog_cronometro_numeri">90sp</dimen>
+
+    <dimen name="larghezza_immagine_drag">25dp</dimen>
+    <dimen name="larghezza_immagine_superset">15dp</dimen>
+    <dimen name="larghezza_checkBox">30dp</dimen>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/border_esercizio_list_item" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gruppo"
+                android:id="@+id/textViewNomeGruppoMuscolare"
+                android:textStyle="bold"
+                android:textSize="@dimen/caratteri_listView_Gruppo"
+                android:textColor="@color/coloreGruppoMuscolareListView"
+                android:gravity="left|start"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+                android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esercizio"
+                android:id="@+id/textViewNomeEsercizio"
+                android:textStyle="bold"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:textColor="@color/coloreEsercizioListView"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+                android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serie"
+                android:id="@+id/textViewSerie"
+                android:textSize="@dimen/caratteri_listView_Attributi"
+                android:textColor="@color/coloreAttributiListView"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+                android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:id="@+id/textViewX"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:textSize="@dimen/caratteri_listView_Attributi"
+                android:textColor="@color/coloreAttributiListView"
+                android:layout_gravity="center_vertical" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayoutContenitoreItemDinamici">
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:id="@+id/textViewNote"
+            android:textSize="@dimen/caratteri_listView_Attributi"
+            android:textColor="@color/coloreNoteListView"
+            android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+            android:paddingStart="@dimen/dialog_horizontal_margin_5" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewSuperSet"
+        android:contentDescription="Tipo di super set"
+        android:layout_weight="0"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

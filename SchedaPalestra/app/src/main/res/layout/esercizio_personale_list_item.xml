@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_esercizio_list_item" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Gruppo"
+        android:id="@+id/textViewNomeGruppoMuscolare"
+        android:textStyle="bold"
+        android:textSize="@dimen/caratteri_listView_Gruppo"
+        android:textColor="@color/coloreGruppoMuscolareListView"
+        android:gravity="left|start"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+        android:paddingStart="@dimen/dialog_horizontal_margin_5"
+        android:layout_marginTop="@dimen/dialog_horizontal_margin_2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esercizio"
+        android:id="@+id/textViewNomeEsercizio"
+        android:textStyle="bold"
+        android:textSize="@dimen/caratteri_listView_Esercizio"
+        android:textColor="@color/coloreEsercizioListView"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+        android:paddingStart="@dimen/dialog_horizontal_margin_5"
+        android:layout_marginTop="@dimen/dialog_horizontal_margin_5"
+        android:layout_marginBottom="@dimen/dialog_horizontal_margin_2"/>
+
+</LinearLayout>

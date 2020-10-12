@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#000451</color>
+
+    <color name="coloreSfondoMainActivity" tools:keep="@color/coloreSfondoMainActivity">#1A237E</color>
+    <color name="coloreSfondoDialogCronometro">#C5CAE9</color>
+    <color name="coloreSfondoDialogActivity">#E0E0E0</color>
+    <color name="Bianco">#ffffff</color>
+    <color name="Nero">#000000</color>
+    <color name="Rosso">#ff0000</color>
+    <color name="Giallo" tools:keep="@color/Giallo">#fbff00</color>
+    <color name="Verde">#64DD17</color>
+
+    <color name="coloreGruppoMuscolareListView">#311b92</color>
+    <color name="colorePiramidaleListView" tools:keep="@color/colorePiramidaleListView">#c51162</color>
+    <color name="coloreGiornoListView">#b71c1c</color>
+    <color name="coloreEsercizioListView">#1b5e20</color>
+    <color name="coloreAttributiListView">#311b92</color>
+    <color name="coloreSceltaTipoInserimento">#311B92</color>
+    <color name="coloreNoteListView">#b71c1c</color>
+    <color name="coloreRoutineListView">#080a6d</color>
+
+    <color name="list_item_background" tools:keep="@color/list_item_background">#ECEFF1</color>
+    <color name="list_item_border">#CFD8DC</color>
+    <color name="app_color" tools:keep="@color/app_color">#8EAE3C</color>
+
+    <color name="coloreSfondoLayoutSceltaTipoDiInserimento">#b41a237e</color>
+
+    <color name="esercizioBgColorBianco">#F5F5F5</color>
+    <color name="esercizioBgColorViola">#B388FF</color>
+    <color name="esercizioBgColorArancio">#FF9100</color>
+    <color name="esercizioBgColorBlu">#03A9F4</color>
+    <color name="esercizioBgColorAzzurro">#4fC3F7</color>
+    <color name="esercizioBgColorVerde">#B2FF59</color>
+    <color name="esercizioBgColorGiallo">#FFFF00</color>
+    <color name="esercizioBgColorRosso">#FF8A80</color>
+    <color name="esercizioBgColorRosa">#FF80AB</color>
+    <color name="esercizioBgColorVerdeAcqua">#00E676</color>
+</resources>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutContenitore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/dialog_vertical_margin"
+    android:paddingLeft="@dimen/dialog_horizontal_margin"
+    android:paddingRight="@dimen/dialog_horizontal_margin"
+    android:paddingTop="@dimen/dialog_vertical_margin"
+    android:background="@color/coloreSfondoDialogActivity"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerGruppiMuscolari"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerEsercizi"
+                android:textSize="@dimen/caratteri_dialog" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10sp">
+                <TextView
+                    android:id="@+id/textViewLabelUnitaDiMisura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="@string/testoLabelUnitaDiMisura"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog"
+                    android:paddingTop="@dimen/dialog_horizontal_margin_7"
+                    android:paddingRight="@dimen/dialog_horizontal_margin_20" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/radioKg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/testoLabelPesoKg"
+                        android:textColor="@color/Nero"
+                        android:textSize="@dimen/caratteri_dialog"
+                        android:paddingRight="@dimen/dialog_horizontal_margin_20" />
+
+                    <RadioButton
+                        android:id="@+id/radiolb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/testoLabelPesolb"
+                        android:textColor="@color/Nero"
+                        android:textSize="@dimen/caratteri_dialog"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10sp">
+
+                <TextView
+                    android:id="@+id/textViewMassimale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:paddingRight="@dimen/dialog_horizontal_margin_5"
+                    android:text="@string/testoLabelMassimale"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog" />
+                <EditText
+                    android:id="@+id/editTextPesoMassimale"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayoutContenitoreItemDinamici">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/Nero"
+                        android:text="@string/testoLabelNuovaSeriePiramidale"
+                        android:textSize="@dimen/caratteri_dialog"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/btnAggiungi"
+                        android:layout_toStartOf="@+id/btnAggiungi"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp" />
+                    <Button
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:text="+"
+                        android:background="@drawable/bachground_circle_green"
+                        android:id="@+id/btnAggiungi"
+                        android:textStyle="bold"
+                        android:textColor="@color/Bianco"
+                        android:textSize="20sp"
+                        android:layout_gravity="right"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5sp">
+
+                <TextView
+                    android:id="@+id/textViewGiorno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:paddingRight="@dimen/dialog_horizontal_margin_5"
+                    android:text="@string/testoLabelGiorno"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog" />
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerGiorni"
+                    android:textSize="@dimen/caratteri_dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5sp">
+
+                <TextView
+                    android:id="@+id/textViewRoutine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:paddingRight="@dimen/dialog_horizontal_margin_5"
+                    android:text="@string/testoLabelRoutine"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog" />
+
+                <Spinner
+                    android:id="@+id/spinnerRoutine"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/caratteri_dialog_spinner" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5sp">
+
+                <TextView
+                    android:id="@+id/textViewNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/dialog_horizontal_margin_5"
+                    android:text="@string/testoLabelNote"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog" />
+
+                <EditText
+                    android:id="@+id/editTextNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:textColor="@color/Nero"
+                    android:textSize="@dimen/caratteri_dialog" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBgBianco"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_bianco"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgViola"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_viola"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgArancio"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_arancio"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgBlu"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_blu"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgAzzurro"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_azzurro"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dialog_horizontal_margin_5"
+                android:paddingBottom="@dimen/dialog_horizontal_margin_5">
+
+                <Button
+                    android:id="@+id/btnBgVerde"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_verde"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgGiallo"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_giallo"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgRosso"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_rosso"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgRosa"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_rosa"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+
+                <Button
+                    android:id="@+id/btnBgVerdeAcqua"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/bachground_circle_bg_verdeacqua"
+                    android:layout_marginLeft="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginStart="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginRight="@dimen/dialog_horizontal_margin_5"
+                    android:layout_marginEnd="@dimen/dialog_horizontal_margin_5" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

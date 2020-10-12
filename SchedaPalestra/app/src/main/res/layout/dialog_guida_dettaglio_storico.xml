@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloGenerale"
+                android:id="@+id/testoGuidaTitoloGenerale"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Gruppo"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaDettaglioStorico"
+                android:id="@+id/testoGuidaDettaglioStorico"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoVersione"
+                android:id="@+id/testoGuidaVersione"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="end|right" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloGenerale"
+                android:id="@+id/testoGuidaTitoloGenerale"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Gruppo"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaIntroduttivaInserimentoModificaCancellazione"
+                android:id="@+id/testoGuidaIntroduttivaInserimentoModificaCancellazione"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:paddingTop="10sp"
+                android:gravity="left|start" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoAttenzioneMemorizzazioneLocale"
+                android:id="@+id/testoAttenzioneMemorizzazioneLocale"
+                android:textColor="@color/Rosso"
+                android:textSize="@dimen/caratteri_dialog"
+                android:paddingTop="10sp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaAttenzioneSpostamentoEsercizio"
+                android:id="@+id/testoGuidaAttenzioneSpostamentoEsercizio"
+                android:textColor="@color/Rosso"
+                android:textSize="@dimen/caratteri_dialog"
+                android:paddingTop="10sp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloCreazioneNuovaScheda"
+                android:id="@+id/testoGuidaTitoloCreazioneNuovaScheda"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaCreazioneNuovaScheda"
+                android:id="@+id/testoGuidaCreazioneNuovaScheda"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="start|right" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoAttenzioneSchedaNonPiuModificabile"
+                android:id="@+id/testoAttenzioneSchedaNonPiuModificabile"
+                android:textColor="@color/Rosso"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloInserimentoEsercizio"
+                android:id="@+id/testoGuidaTitoloInserimentoEsercizio"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaInserimentoEsercizio"
+                android:id="@+id/testoGuidaInserimentoEsercizio"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoAttenzioneAggiornamentoListEsercizi"
+                android:id="@+id/testoAttenzioneAggiornamentoListEsercizi"
+                android:textColor="@color/Rosso"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloModificaEsercizio"
+                android:id="@+id/testoGuidaTitoloModificaEsercizio"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaModificaEsercizio"
+                android:id="@+id/testoGuidaModificaEsercizio"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloCancellazioneEsercizio"
+                android:id="@+id/testoGuidaTitoloCancellazioneEsercizio"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaCancellazioneEsercizio"
+                android:id="@+id/testoGuidaCancellazioneEsercizio"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaAttenzioneCancellazioneEsercizio"
+                android:id="@+id/testoGuidaAttenzioneCancellazioneEsercizio"
+                android:textColor="@color/Rosso"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloFiltroEsercizi"
+                android:id="@+id/testoGuidaTitoloFiltroEsercizi"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaFiltroEsercizi"
+                android:id="@+id/testoGuidFiltroEsercizi"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloStoricoSchede"
+                android:id="@+id/testoGuidaTitoloStoricoSchede"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaStoricoSchedeInMain"
+                android:id="@+id/testoGuidaStoricoSchede"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaTitoloCopiaScheda"
+                android:id="@+id/testoGuidaTitoloCopiaScheda"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_listView_Esercizio"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoGuidaCopiaScheda"
+                android:id="@+id/testoGuidaCopiaScheda"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:gravity="left|start" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testoVersione"
+                android:id="@+id/testoGuidaVersione"
+                android:textColor="@color/Nero"
+                android:textSize="@dimen/caratteri_dialog"
+                android:paddingTop="10sp"
+                android:textStyle="bold"
+                android:gravity="right|end" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

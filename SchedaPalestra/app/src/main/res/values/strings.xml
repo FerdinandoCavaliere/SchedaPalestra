@@ -1,0 +1,327 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="nome_prima_scheda" tools:keep="@string/nome_prima_scheda">Scheda Iniziale</string>
+    <string name="nessuna_nota_inserita">Nessuna descrizione inserita</string>
+
+    <string name="app_name">Scheda Palestra</string>
+    <string name="title_activity_dettaglio_storico" tools:keep="@string/title_activity_dettaglio_storico">DettaglioStoricoActivity</string>
+    <string name="title_activity_activityestione_super_set" tools:keep="@string/title_activity_activityestione_super_set">ActivityestioneSuperSet</string>
+    <string name="title_activity_gestione_super_set" tools:keep="@string/title_activity_gestione_super_set">GestioneSuperSetActivity</string>
+    <string name="title_activity_gestione_nomi_esercizi_personali" tools:keep="@string/title_activity_gestione_nomi_esercizi_personali">GestioneNomiEserciziPersonali</string>
+    <string name="title_activity_gestione_esercizi_personali" tools:keep="@string/title_activity_gestione_esercizi_personali">GestioneEserciziPersonaliActivity</string>
+
+    <!-- Titoli activity -->
+    <string name="TitoloActivityMain" tools:keep="@string/TitoloActivityMain" />
+    <string name="TitoloActivityStorico">Elenco schede</string>
+    <string name="TitoloActivityStoricoDettaglio" tools:keep="@string/TitoloActivityStoricoDettaglio">Scheda selezionata</string>
+    <string name="TitoloActivityGestioneSuperSet">Gestione super set</string>
+    <string name="TitoloActivityGestioneNomiEserciziPersonali">Gestione Esercizi</string>
+    <string name="TitoloActivityExportMultiplo">Esportazione multipla</string>
+
+    <!-- Floating buttons e toolbar -->
+    <string name="FloatingSerieCostanti">Serie costanti</string>
+    <string name="FloatingSeriePiramidali">Serie piramidali</string>
+    <string name="FloatingCardio">Esercizio aerobico</string>
+    <string name="FloatingChiudi">Chiudi</string>
+    <string name="CronometroDescrizione">Cronometro</string>
+
+    <!-- Voci di menu -->
+    <string name="VoceMenuFiltroPerGruppoMuscolare">Filtro per gruppo muscolare</string>
+    <string name="VoceMenuFiltroPerGruppiMuscolari">Filtro per gruppi muscolari</string>
+    <string name="VoceMenuGestioneSuperSet">Gestione Super Set</string>
+    <string name="VoceMenuCreazioneNuovaScheda">Creazione nuova scheda</string>
+    <string name="VoceMenuStoricoSchede">Elenco schede</string>
+    <string name="VoceMenuFiltroPerGiorno">Filtro per giorno</string>
+    <string name="VoceMenuFiltroPerRoutine">Filtro per routine</string>
+    <string name="VoceMenuTornaAllaPaginaPrincipale" tools:keep="@string/VoceMenuTornaAllaPaginaPrincipale">Torna alla pagina principale</string>
+    <string name="VoceMenuGestioneEsercizi">Archivio personale esercizi</string>
+    <string name="VoceMenuCopiaScheda">Copia scheda</string>
+    <string name="VoceMenuCopiaSchedaPesiZero">Copia scheda con pesi a zero</string>
+    <string name="VoceMenuCopiaSchedaMantenendoPesi">Copia scheda mantenendo i pesi</string>
+    <string name="VoceMenuAiuto">Aiuto</string>
+    <string name="VoceMenuTutti">Tutti</string>
+
+    <!-- Main actovity -->
+    <string name="testoLabelSchedaInseritail" tools:keep="@string/testoLabelSchedaInseritail">Scheda inserita il </string>
+
+    <!-- Nuova scheda inserimento esercizi -->
+    <string name="testoLabelDialogSelezionaEsercizio" tools:keep="@string/testoLabelDialogSelezionaEsercizio">Seleziona un esercizio</string>
+    <string name="testoLabelSelezionaEsercizio" tools:keep="@string/testoLabelSelezionaEsercizio">Esercizio</string>
+    <string name="testoLabelSerie">Serie</string>
+    <string name="testoLabelSerieBreve">S.</string>
+    <string name="testoLabelRipetizioni">Ripetizioni</string>
+    <string name="testoLabelRipetizioniAbbreviato">Rip</string>
+    <string name="testoLabelPeso">Peso</string>
+    <string name="testoLabelPesoAbbreviato">P.</string>
+    <string name="testoLabelPesoKg">Kg</string>
+    <string name="testoLabelPesolb">lb</string>
+    <string name="testoLabelPesoPercentuale">Percentuale</string>
+    <string name="testoLabelPesoPercentualeBreve">Perc</string>
+    <string name="testoLabelPesoPercentualeAbbreviato">%</string>
+    <string name="testoLabelPesoRPE">RPE</string>
+    <string name="testoLabelRecupero">Recupero</string>
+    <string name="testoLabelRecuperoMin">min</string>
+    <string name="testoLabelOrdine" tools:keep="@string/testoLabelOrdine">Ordine</string>
+    <string name="testoLabelNote">Note</string>
+    <string name="testoLabelGiorno">Giorno</string>
+    <string name="title_activity_main" tools:keep="@string/title_activity_main">MainActivity</string>
+    <string name="testoLabelNuovaSeriePiramidale">Aggiungi serie</string>
+    <string name="testoLabelRecuperoBreve">R.</string>
+    <string name="testoLabelRecuperoMedio">Rec.</string>
+    <string name="testoLabelRoutine">Routine</string>
+    <string name="testoLabelUnitaDiMisura">Unità di misura</string>
+    <string name="testoLabelMassimale">Massimale</string>
+
+    <!-- Nuova scheda inserimento esercizi cardio -->
+    <string name="testoLabelPogramma">Programma</string>
+    <string name="testoLabelIntensita">Intensità</string>
+    <string name="testoLabelPendenza">Pendenza</string>
+    <string name="testoLabelPogrammaAbbreviato">Prog.</string>
+    <string name="testoLabelIntensitaAbbreviato">Int.</string>
+    <string name="testoLabelPendenzaAbbreviato">Pnd.</string>
+    <string name="testoLabelVelocita">Velocità</string>
+    <string name="testoLabelPesoKmH">Km/h</string>
+    <string name="testoLabelTempo">Tempo</string>
+    <string name="testoLabelTempoMin">min.</string>
+
+    <!-- Dialogs -->
+    <string name="testoBottoneOk">Ok</string>
+    <string name="testoBottoneSalva">Salva</string>
+    <string name="testoBottoneAnnulla">Annulla</string>
+    <string name="testoLaberNuovaScheda">Inserire una breve descrizione che permetterà di identificare successivamente la scheda (facoltativo).\n
+        Alla scheda verrà comunque associata una data di creazione</string>
+    <string name="titoloDialogFiltroGruppiMuscolari">Gruppi muscolari</string>
+    <string name="testoBottoneRiavvia">Riavvia</string>
+    <string name="testoLaberModificaNotaScheda">Inserire una breve descrizione che permetterà di identificare successivamente la scheda (facoltativo)</string>
+
+    <!-- Storico schede -->
+    <string name="testoLabelDataInserimento">Data inserimento</string>
+    <string name="testoLabelNotaInserimento">Nota</string>
+    <string name="testoBottoneChiudi">Chiudi</string>
+    <string name="testoBottoneTorna" tools:keep="@string/testoBottoneTorna">Torna all\'elenco delle schede</string>
+
+    <!-- Elenco Export -->
+    <string name="testoLabelDataCreazioneFile">Data creazione</string>
+
+    <!-- Gestione Super Set -->
+    <string name="testoBottoneSalvaSuperSet">Salva Super Set</string>
+    <string name="testoBottoneFine" tools:keep="@string/testoBottoneFine">Fine</string>
+
+    <!-- Gestione Esercizi Personali -->
+    <string name="testoRecupero">Tempo di recupero</string>
+
+    <!-- Guida -->
+    <string name="testoGuidaTitoloGenerale">Funzionalità della pagina</string>
+    <string name="testoGuidaIntroduttivaInserimentoModificaCancellazione">Dalla pagina è possibile eseguire le seguenti azioni:\n
+        - Creazione di nuova scheda\n
+        - Inserimento | Modifica | Cancellazione esercizi della scheda corrente\n
+        - Filtrare esercizi\n
+        - Visualizzare l\'elenco delle schede inserite\n
+        - Entrare nella sezione per la gestione delle Super Set\n
+        - Entrare nella sezione di ampliamento dell\' archivio esercizi per inserirne di propri.\n
+        - Esportare la scheda attiva in formato pdf e ottenere l\'elenco delle schede esportate. Bisogna fornire un nome al file creato. Il sistema antepone al nome fornito la dicitura
+        Sp_Gr_ oppure Sp_El_ oppure Sp_Ro oppure Sp_Gi\n
+        Il sistema al primo avvio crea una scheda vuota per iniziare subito
+        ad inserire i propri esercizi.\nE\' possibile modificare l\'ordine degli esercizi mediante trascinamento usando il tasto posto alla sinistra di ognuno.\nE\' stato
+        inserito un semplice e pratico cronometro per il recupero tra una serie e l\' altra. Per visualizzarlo premere il relativo tasto in alto
+    </string>
+    <string name="testoGuidaAttenzioneSpostamentoEsercizio">La modifica dell\'ordine di un esercizio che fa parte di una Super Set implica la cancellazione della stessa
+        (del solo raggruppamento)
+    </string>
+    <string name="testoGuidaTitoloCreazioneNuovaScheda">Creazione nuova scheda</string>
+    <string name="testoGuidaCreazioneNuovaScheda">Per creare una nuova scheda utilizzare il menu contrassegnato dai 3 punti verticali posto in alto a destra e selezionare
+        la relativa voce. Il sistema apre una schermata in cui è possibile inserire una nota che contraddistingue la scheda e che può essere successivamente utilizzato
+        dall\'utente per ricercare una scheda precedente
+    </string>
+    <string name="testoAttenzioneSchedaNonPiuModificabile">Quando viene creata una nuova scheda, le schede precedenti restano nel sistema e possono essere successivamente riutilizzate
+    </string>
+    <string name="testoGuidaTitoloInserimentoEsercizio">Inserimento di un nuovo esercizio</string>
+    <string name="testoGuidaInserimentoEsercizio">Per inserire un nuovo esercizio avvalersi del bottone con il simbolo \"+\" posto in basso a destra. Il sistema presenta
+        la possibilità di inserire un esercizio aerobico (cardio) oppure anaerobico con serie a ripetizioni costanti o variabili (piramidale).\n
+        A seconda della scelta effettuata viene presentato un popup in cui è possibile inserire i dati.
+        Nel caso di inserimento di un esercizio con serie composte da ripetizioni costanti i campi obbligatori sono:\n\n
+        - Il nome del gruppo muscolare\n\n
+        - Il nome dell\'esercizio\n\n
+        - Il numero di serie\n\n
+        - Il numero di ripetizioni\n\n
+        Tutti gli altri campi sono facoltativi e potranno essere aggiunti o modificati successivamente.\n\n
+        Nel caso di un esercizio con serie piramidali i campi obbligatori sono\n
+        - Il nome del gruppo muscolare\n\n
+        - Il nome dell\'esercizio\n\n
+        - Il numero di ripetizioni per ogni serie\n\n
+        Non è necessario inserire il numero di serie in quanto il sistema lo determina in automatico.\n\n
+        Nel caso di un esercizio aerobico\n\n
+        - Il nome dell\'esercizio\n\n
+        Tutti gli altri campi sono facoltativi e potranno essere aggiunti o modificati successivamente.\n\n
+        Ogni esercizio viene inserito in coda ma può essere spostato successivamente mediante trascinamento\n
+    </string>
+    <string name="testoGuidaTitoloModificaEsercizio">Modifica di un esercizio</string>
+    <string name="testoGuidaModificaEsercizio">Per apportare delle modifiche agli elementi di un esercizio
+        (peso, ripetizioni, note ecc.) fare un click sul relativo
+        elemento. Il sistema apre una schermata nella quale è possibile apportare tali modifiche.
+        I campi relativi al nome del gruppo muscolare\n
+        e al nome dell\'esercizio non possono essere modificati.
+        Se anche tali elementi sono stati inseriti in maniera errata bisogna procedere all\'eliminazione della voce e al suo reinserimento\n
+    </string>
+    <string name="testoGuidaTitoloCancellazioneEsercizio">Eliminazione di un esercizio</string>
+    <string name="testoGuidaCancellazioneEsercizio">Per eliminare un esercizio dalla scheda fare un \"click prolungato\" sulla relativa voce dell\'elenco</string>
+    <string name="testoGuidaAttenzioneCancellazioneEsercizio">L\'eliminazione di un esercizio che fa parte di una Super Set implica la cancellazione della stessa
+        (del solo raggruppamento)</string>
+    <string name="testoGuidaTitoloFiltroEsercizi">Filtro esercizi</string>
+    <string name="testoGuidaFiltroEsercizi">Per visualizzare gli esercizi inseriti di un determinato gruppo muscolare oppure associati ad un determinato giorno della
+        settimana oppure di n gruppi muscolari oppure raggruppati in una determinata routine utilizzare il menu contrassegnato dai 3 punti verticali posto in alto a destra e selezionare una delle relative voci.
+        Il sistema visualizza un sottomenu oppure un popup in cui l\'utente può scegliere quali esercizi visualizzare. Nel caso di filtro basato su giorno settimanale oppure routine,
+        il sistema visualizza ANCHE gli esercizi per i quali è stato impostato "indifferente" come attributo
+    </string>
+    <string name="testoGuidaTitoloStoricoSchede">Elenco schede</string>
+    <string name="testoGuidaStoricoSchedeInMain">E\' possibile richiamare le schede precedentemente inserite. Per fare ciò utilizzare
+        il menu contrassegnato dai 3 punti verticali posto in alto a destra e selezionare la relativa voce. Il sistema passa alla schermata in cui vengono elencate tutte
+        le schede inserite.
+    </string>
+    <string name="testoGuidaStoricoSchede">La pagina presenta l\'elenco delle schede inserite in ordine decrescente di data. E\' possibile richiamarne una e renderla come
+        scheda in esecuzione facendo un click sulla relativa voce.\n
+        Selezionando una o più schede mediante check posti alla loro sinistra e aprendo il drawer utilizzando i 3 trattini in alto a sinistra è possibile creare un file PDF
+        contenente le schede selezionate. Bisogna fornire un nome al file creato. Il sistema antepone al nome fornito la dicitura
+        Sp_Gr_ oppure Sp_El_ oppure Sp_Ro oppure Sp_Gi\n
+    </string>
+    <string name="testoGuidaTitoloCancellazioneScheda">Eliminazione di una scheda dal sistema</string>
+    <string name="testoGuidaCancellazioneScheda">Per eliminare una scheda dal sistema fare un "click prolungato" sulla relativa voce dell\'elenco</string>
+    <string name="testoAttenzioneAggiornamentoListEsercizi">L\'inserimento di un nuovo esercizio non implica l\'immediato aggiornamento della lista degli esercizi
+        sullo sfondo. Per visualizzare la situazione aggiornata, utilizzare il tasto \"Chiudi\" della schermata e non il tasto \"Back\" dello smartphone.
+        Se è stato utilizzato il tasto \"Back\", per visualizzare la situazione aggiornata, utilizzare la funzione di filtro come descritto successivamente
+    </string>
+    <string name="testoAttenzioneMemorizzazioneLocale">Il sistema memorizza tutti i dati all\'interno del terminale dell\'utente. Nel caso di disinstallazione
+        dell\'applicazione oppure di eliminazione dei suoi dati, non sarà possibile ripristinarli
+    </string>
+    <string name="testoGuidaGestioneSuperSet">Dalla pagine è possibile eseguire le seguenti azioni:\n
+        - Raggruppare 2 o più esercizi in Super Set\n
+        - Eliminare il raggruppamento
+    </string>
+    <string name="testoGuidaTitoloCreazioneSuperSet">Creazione Super Set</string>
+    <string name="testoGuidaCreazioneSuperSet">Per raggruppare 2 o più esercizi in Super Set selezionarli mediante spunta posta alla sinistra di ognuno di essi e
+        successivamente premere il bottone \"SALVA SUPER SET\" posto in basso a sinistra. Ripetere i passi per ogni Super Set che si desidera creare. Al termine premere
+        il bottone \"BACK\" posto in alto a sinistra oppure selezionare la voce di menù \"Torna alla pagina principale\"
+    </string>
+    <string name="testoGuidaTitoloEliminazioneSuperSet">Eliminazione Super Set</string>
+    <string name="testoGuidaEliminazioneSuperSet">Per eliminare una Super Set fare un \"click prolungato\" su uno degli esercizi che la compongono</string>
+    <string name="testoGuidaAttenzioneEliminazioneSuperSet">L\' eliminazione di una Super Set comporta solo l\'eliminazione del raggruppamento. I singoli esercizi
+        resteranno nel sistema
+    </string>
+    <string name="testoGuidaAttenzione2EliminazioneSuperSet">Una Super Set verrà automaticamente eliminata se si esegue una delle seguenti azioni:\n- Eliminazione dal
+        sistema di un esercizio che ne fa parte\n - Modifica dell\'ordine di un esercizio che ne fa parte
+    </string>
+    <string name="testoGuidaDettaglioStorico">La pagina presenta l\'elenco degli esercizi presenti nella scheda dello storico che si è scelto di visualizzare.
+        E\' possibile tornare all\'elenco delle schede premento il tasto \"BACK\" posto in alto a sinistra. Ed è possibile tornare alla pagina principale medianto
+        la voce di menù contrassegnato dai 3 punti verticali posto in alto a destra
+    </string>
+    <string name="testoGuidaIntroduttivaInserimentoModificaCancellazioneEsercizioPersonale">Dalla pagina è possibile eseguire le seguenti azioni:\n
+        - Inserimento | Modifica | Cancellazione di esercizi nel e dall\' archivio personale\n
+        - Filtrare esercizi per gruppo muscolare\n
+    </string>
+    <string name="testoGuidaInserimentoEsercizioPersonale">Per inserire un nuovo esercizio avvalersi del bottone con il simbolo \"+\" posto in basso a destra.
+        Il sistema presenta una maschera in cui è possibile selezionare il gruppo muscolare di cui l\' esercizio fa parte e inserire il nome o la descrizione
+        dell\' esercizio
+    </string>
+    <string name="testoGuidaModificaEsercizioPersonale">Per modificare il nome di un esercizio inserito fare un click sulla relativa voce dell\' elenco
+    </string>
+    <string name="testoGuidaAttenzioneEsercizioPersonaleNonModificabile">Se l\' esercizio è stato selezionato all\' interno di una o più schede non sarà
+        possibile modificarlo
+    </string>
+    <string name="testoGuidaCancellazioneEsercizioPersonale">Per eliminare un esercizio fare un \"click prolungato\" sulla relativa voce dell\'elenco</string>
+    <string name="testoGuidaAttenzioneEsercizioPersonaleNonCancellabile">Se l\' esercizio è stato selezionato all\' interno di una o più schede non sarà
+        possibile eliminarlo
+    </string>
+    <string name="testoGuidaTitoloFiltroEserciziPersonali">Filtro per gruppo muscolare</string>
+    <string name="testoGuidaFiltroEserciziPersonali">Per visualizzare gli esercizi inseriti di un determinato gruppo muscolare utilizzare il menu contrassegnato dai 3
+        punti verticali posto in alto a destra e selezionare una delle relative voci.
+    </string>
+    <string name="testoGuidaTitoloCopiaScheda">Copia scheda</string>
+    <string name="testoGuidaCopiaScheda">Il sistema permette di creare la copia di una scheda inserita.\n
+        E\' possibile copiare una scheda mantenendo i pesi oppure settarli a zero nella scheda copiata.\n
+        Per copiare una scheda seguire i seguenti passi:\n
+        1 - Selezionare una scheda dall\' elenco delle schede e visualizzarla\n
+        2 - Dal menu contrassegnato dai 3 punti verticali posto in alto a destra selezionare la voce "Copia scheda"\n
+        3 - Selezionare una modalità di copia\n
+        La scheda copiata sarà visualizzata come scheda corrente.
+    </string>
+    <string name="testoGuidaElencoSchedeEsportate">
+        Il sistema legge il file dalla cartella Download del proprio dispositivo il cui nome inizia con Sp_Gr_ oppure Sp_El_ oppure Sp_Ro oppure Sp_Gi\n
+        Cliccando su uno dei files il sistema chiede al dispositivo di fornire le app che possono visualizzare pdf. Nel caso in cui non ne trova avverte l\'utente\n
+        Facendo un click prolungato su uno dei files è possibile eliminarlo
+    </string>
+
+    <!-- Messaggi Toast -->
+    <string name="testoNessunaSchedaTrovata">Non è stato possibile reperire l\'ultima scheda. Crearne una !</string>
+    <string name="testoNessunEsercizioPresente">Non sono presenti esercizi nella scheda</string>
+    <string name="testoNessunEsercizioDelGruppoMuscolareSelezionato">Non sono presenti esercizi del gruppo muscolare selezionato</string>
+    <string name="testoNessunEsercizioDelGruppiMuscolariSelezionati">Non sono presenti esercizi dei gruppi muscolari selezionati</string>
+    <string name="testoNessunEsercizioDelGiornoSelezionato">Non sono presenti esercizi per il giorno selezionato</string>
+    <string name="testoNessunEsercizioDellaRoutineSelezionata">Non sono presenti esercizi per la routine selezionata</string>
+    <string name="testoOperazioneRiportatoRimozioneSuperSet">L\'operazione ha portato alla rimozione di una o più Super Set</string>
+    <string name="testoNuovaSchedaCreata">La nuova scheda è stata creata con successo. E\' possibile inserire esercizi</string>
+    <string name="testoSuperSetEliminata">Super Set eliminata</string>
+    <string name="testoNessunaSchedaTrovataNelloStorico">Nessuna scheda precedentemente inserita</string>
+    <string name="testoImpossibileSettareScheda">Non è stato possibile modificare la scheda attiva</string>
+    <string name="testoNessunEsercizioPersonale">Nessun esercizio presente nell\' archivio personale</string>
+    <string name="testoNessunEsercizioPersonaleDelGruppoMuscolareSelezionato">Nessun esercizio del gruppo muscolare selezionato presente nell\' archivio personale</string>
+    <string name="testoEsercizioEliminato">Esercizio eliminato</string>
+    <string name="testoEsercizioEliminatoConSuperset">Esercizio eliminato. L\'operazione ha portato alla rimozione di una superset</string>
+    <string name="testoNessunGruppoSelezionato">Nessun gruppo selezionato</string>
+    <string name="testoNotaNonModificata">Non è stato possibile modificare la nota</string>
+    <string name="schedaCopiataConsuccesso">Scheda copiata con successo e attualmente visualizzata</string>
+    <string name="schedaEsportataConsuccesso">Scheda esportata con successo. Nome del file creato: </string>
+    <string name="testoNessunNomeExport">Inserire un nome</string>
+    <string name="testoExportNonCreato">Non è stato possibile generare l\'export</string>
+    <string name="testoExportNessunaSchedaSelezionata">Selezionare almeno una scheda</string>
+    <string name="testoCopiaNonCreato">Non è stato possibile copiare la scheda</string>
+    <string name="testoImpossibileEliminareSchedaAttiva">Non è possibile eliminare la scheda in uso</string>
+
+    <!-- Messaggi e titoli Dialogs -->
+    <string name="testoConferma">Conferma</string>
+    <string name="testoConfermaEliminazioneEsercizio">Eliminare l\'esercizio selezionato ?</string>
+    <string name="testoConfermaEliminazioneSchedaDalloStorico">Eliminare la scheda selezionata ?</string>
+    <string name="testoConfermaEliminazioneFile">Eliminare l\'export selezionato ?</string>
+    <string name="testoConfermaEliminazioneSuperSet">Eliminare la Super Set ? (Non verranno eliminati gli esercizi dal sistema)</string>
+    <string name="testoInserireSerieRipetizioni">Inserire serie e ripetizioni</string>
+    <string name="testoEsercizioNonInserito">Non è stato possibile inserire l\'esercizio</string>
+    <string name="testoEsercizioNonModificato">Non è stato possibile modificare l\'esercizio</string>
+    <string name="testoInserireRipetizioniPerPiramidale">Inserire un numero di ripetizioni per ogni serie</string>
+    <string name="testoNonPossibileModificareCancellareEsercizioPersonale">Non è possibile modificare o eliminare un esercizio utilizzato in una o più schede</string>
+
+    <!-- Versione app -->
+    <string name="testoVersione">Versione app. 1.14.1.2</string>
+
+    <!-- Navigation Drawer -->
+    <string name="drawerAperto">Drawer aperto</string>
+    <string name="drawerChiuso">Drawer aperto</string>
+    <string name="testoGruppoExport">Esporta scheda corrente</string>
+    <string name="testoExportPdfElenco">Elenco</string>
+    <string name="testoExportPdfGruppi">Divisione in gruppi muscolari</string>
+    <string name="testoExportPdfRoutine">Divisione in routine</string>
+    <string name="testoExportPdfGiorni">Divisione in giorni</string>
+    <string name="testoExportMultiplo">Esportazione di più schede</string>
+
+    <!-- Copia -->
+    <string name="testoTitolProgressCopia">Copia scheda attiva</string>
+    <string name="testoProgressCopia">Copia esercizi in corso...</string>
+    <string name="testoCopia"> - Copia</string>
+
+    <!-- Exports -->
+    <string name="testoTitolProgressExport">Esportazione scheda corrente</string>
+    <string name="testoProgressExport">Esportazione esercizi in corso...</string>
+    <string name="testoLaberNomeExport">Nome export</string>
+    <string name="testoLaberElencoExport">Schede esportate</string>
+    <string name="testoNessunaExportTrovato">Nessuna scheda esportata trovata</string>
+    <string name="testoNonPossibileEliminareExport">Non è stato possibile eliminare l\'export</string>
+    <string name="testoNessunaAppPerPDF">Non sono presenti app per visualizzare PDF</string>
+    <string name="testoLabelNomeExport">Nome export</string>
+    <string name="testoLabelGeneraNomeExport">Genera nome export</string>
+    <string name="testoHintNomeExport">Inserire nome export</string>
+    <string name="testoContentDescriptionEleneco">Immagine export pdf elenco</string>
+    <string name="testoContentDescriptionGruppi">Immagine export pdf gruppi</string>
+    <string name="testoContentDescriptionRoutine">Immagine export pdf routine</string>
+    <string name="testoContentDescriptionGiorni">Immagine export pdf giorni</string>
+    <string name="testoContentDescriptionElencoExport">Elenco export generati</string>
+    <string name="intensita">Intensità</string>
+    <string name="velocita">Velocità</string>
+
+</resources>

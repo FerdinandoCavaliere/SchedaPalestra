@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewSerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_5"
+        android:paddingStart="@dimen/dialog_horizontal_margin_5"
+        android:text="Serie"
+        android:textColor="@color/coloreAttributiListView"
+        android:textSize="@dimen/caratteri_listView_Attributi" />
+
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingEnd="@dimen/dialog_horizontal_margin_3"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_3"
+        android:paddingRight="@dimen/dialog_horizontal_margin_3"
+        android:paddingStart="@dimen/dialog_horizontal_margin_3"
+        android:text="X"
+        android:textColor="@color/coloreAttributiListView"
+        android:textSize="@dimen/caratteri_listView_Attributi" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutContenitoreItemDinamici">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingStart="@dimen/dialog_horizontal_margin_10"
+        android:text="@string/testoLabelRecuperoMedio"
+        android:textColor="@color/coloreAttributiListView"
+        android:textSize="@dimen/caratteri_listView_Attributi"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/textViewRecupero"
+        android:textSize="@dimen/caratteri_listView_Attributi"
+        android:textColor="@color/coloreAttributiListView"
+        android:layout_gravity="top"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_2"
+        android:paddingStart="@dimen/dialog_horizontal_margin_2" />
+
+    <TextView
+        android:id="@+id/textViewMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingLeft="@dimen/dialog_horizontal_margin_2"
+        android:paddingStart="@dimen/dialog_horizontal_margin_2"
+        android:text="min"
+        android:textColor="@color/coloreAttributiListView"
+        android:textSize="@dimen/caratteri_listView_Attributi" />
+
+</LinearLayout>
